@@ -11,7 +11,6 @@ def esPrimo(n):
     return: True si es primo y False de no serlo
     """
 	
-<<<<<<< HEAD
     #Si es menor que 2 no puede ser primo
     if n < 2:	return False
 	counter=0
@@ -21,16 +20,6 @@ def esPrimo(n):
 			counter+=1
 	return counter+1
 			
-=======
-	#Si es menor que 2 no puede ser primo
-	if n < 2:	return False
-	
-	#El rango de 2 hasta n
-	for i in range(2, n):
-		if n % i == 0:	return False
-	
-	return True
->>>>>>> master
 
 def esPrimoIntervalo(i, k):
     """
